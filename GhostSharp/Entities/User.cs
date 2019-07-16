@@ -11,7 +11,7 @@ namespace GhostSharp.Entities
         public string Name { get; set; }
         [JsonProperty("slug")]
         public string Slug { get; set; }
-        [JsonProperty("name")]
+        [JsonProperty("email")]
         public string Email { get; set; }
         [JsonProperty("profile_image")]
         public string ProfileImage { get; set; }
